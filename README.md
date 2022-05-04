@@ -17,8 +17,8 @@
 * [Our Mission](#our-mission)
 * [Executive Summary](#executive-summary)
 * [Requirements](#requirements)
-* [Data](#data)
-* [Visualization](#visualization)
+* [Web Visualization](#visualization)
+* [BackEnd](#data)
 * [User Experience](#user-experience)
 * [Presentation Deck](#Presentation-Deck)
 * [License](#license)  
@@ -39,8 +39,6 @@ In our interactive MVP application, the user can invest in three options. This a
 
 We also introduced our social media content that shares tweets and likes of the top influencers in the field of crytocurrency. Additionally we can provide a list of followers of these influencers to tarket as future advertizing targets. Please enjoy. 
 
-
-
 ---
 
 ## Requirements
@@ -50,26 +48,30 @@ This project leverages python 3.7, streamlit and solidity. The remainder of the 
 In order to run this application, you must secure the folowing APIs. You will see the breakdown of the keys and secrets in our sample.env file.
 
 Installation instructions
+
 pip install yfinance --upgrade --no-cache-dir
+
 pip install streamlit-aggrid
+
 pip install tweepy
+
 pip install cufflinks --upgrade
+
 pip install chart_studio
+
 pip install pycoingecko
+
 pip install web3==5.17
+
 pip install eth-tester==0.5.0b3
+
 pip install mnemonic
+
 pip install bip44
  
 ---
 
-## Data
-
-
-
----
-
-## Visualization
+## Web Visualization
 
 ## Front end application images
 
@@ -79,23 +81,20 @@ pip install bip44
 ### Streamlit Image of MetaDex Portfolio
 ![MetaDex](Images/MetaDex.PNG)
 
-### Select the Index for analysis
-![Choose Index](Images/choose_index_annalysis.PNG)
+### Streamlit Image of Social Media
+![Twitter](Images/twitter.PNG)
 
-### Buy now
-![Choose Model](Images/choose_model.PNG)
+### Portfoilio Demo
+![Portfolio](Images/Portfolio_demo.gif)
 
-### Take Photo and Register
-![Photo](Images/click_run_praedico.PNG)
+### Buy Demo
+![Buy](Images/Buying_demo.gif)
 
-### Social Media Content
-![twitter](Images/twitter.PNG)
+### Register Demo
+![Register](Images/Register_demo.gif)
 
----
-
-## User Experience
-
-To use this application simply clone the repository and run the XXXX.py in your Jupyter Lab. Open a terminal and input streamlit run XXXX.py. Due to connecting to web3 we were unable to provide a link to the streamlit application.
+### Full Demo
+![MetaDex](Images/Full_demo.gif)
 
 ---
 
@@ -105,11 +104,13 @@ To use this application simply clone the repository and run the XXXX.py in your 
 https://www.canva.com/design/DAE5wI_OonA/zFJJ5TdGuH_ECA2JeHIAFQ/view?utm_content=DAE5wI_OonA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 ---
-
+## API Subscription
+See Sample.env
 
 ## License
 
 Copyright (c) 2022 Briggs Lalor, Ken Lee, Stephane Masyn and John Sung
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -130,5 +131,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-
-
